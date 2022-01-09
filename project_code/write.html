@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="kor">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" async src="button.js"></script>
+    <title>write_page</title>
+</head>
+
+<header>
+    <div class="title-box" id="title-box">
+        <p style="font-weight: bold;">DviD >> 거래 제안서 작성</p>
+    </div>
+</header>
+
+<body>
+    <div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"></script>
+
+        <div class="write-title-box">
+            <input type="text" class="form-control" id="title" aria-describedby="emailHelp" text="제목"  placeholder="글 제목을 입력하세요...">
+        </div>
+
+        <div class="write_form_box">
+            <form>
+        
+                <table>
+                    <tr>
+                        <td style='width:100px'>닉네임:</td>
+                        <td><input type="text" size=50 name="userNM" value="" style='height: 20px;'></td>
+                    </tr>
+                    <tr>
+                        <td>상품 이미지:</td>
+                        <td>
+                            <input type="text" size=37 name="product_img" value="" style='height: 20px;' placeholder="png, jpg, img...">
+                            <!-- <input type="file" id="upload_file"> -->
+                            <button type="file-" class="btn btn-primary" id="upload_file" style='font-size: 14px; text-align: center; background: rgb(52, 152, 219)' >업로드</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>상품명:</td>
+                        <td><input type="text" size=50 name="mobileNO" value="" style='height: 20px;'></td>
+                    </tr>
+                    <tr>
+                        <td>거래설명:</td>
+                        <td><input type="text" size=50 name="Password" style='height: 40px;'></td>
+                    </tr>
+                    <tr>
+                        <td>제안수량:</td>
+                        <td><input type="number" size=100 name="rePassword"></td>
+                    </tr>
+                    <tr>
+                        <td>제안가격:</td>
+                        <td><input type="number" size=50 name="rePassword"></td>
+                    </tr>
+                    <tr>
+                        <td>거래기한:</td>
+                        <td><input type="text" size=50 name="rePassword"></td>
+                    </tr>
+                    <tr>
+                        <td>거래지역:</td>
+                        <td><input type="text" size=50 name="rePassword"></td>
+                    </tr>
+                    <tr>
+                        <td>계좌번호:</td>
+                        <td><input type="text" size=50 name="rePassword"></td>
+                    </tr>
+                    <tr>
+                        <td>연락방법:</td>
+                        <td><input type="password" size=50 name="rePassword"  placeholder="전화번호 or 채팅방 링크 or 이메일"></td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+        <a type="submit" class="form-control btn btn-primary" href='list.html'>입력완료</a>
+
+        
+        <footer class="container-fluid navbar-fixed-bottom">
+            <button type="button" class="btn btn-primary" id = "btn-back">Back</button>
+            <a href="list.html">
+                <button type="button" class="btn btn-primary" id = "home">Home</button>
+            </a>  
+        </footer>
+        
+    </div>
+
+</body>
+
+</html>

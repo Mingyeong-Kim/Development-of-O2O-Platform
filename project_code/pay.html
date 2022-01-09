@@ -1,0 +1,48 @@
+<!--결제 페이지-->
+
+
+
+<!doctype html>
+<html lang="kor">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" async src="button.js"></script>
+    <title>결제 페이지</title>
+</head>
+
+<body>
+    <div>
+        <div>물건이름</div>
+    </div>
+    <form>
+        <div class="mb-3">
+            <!--남은 수량 체크해서 max도 넣어야됨.-->
+            <input min='0' class="form-control"  type="number" id="test" value="설명 입력창"></textarea>
+        </div>
+    </form>
+    <!--수량변경시 가격바뀌어야됨.-->
+    <div>000원</div>
+    <a type="submit" class="btn btn-primary" href='pay_result.html'>결제하기</a>
+
+    <nav class="navbar fixed-bottom navbar-light bg-light">
+        <button type="button" class="btn btn-primary" id="btn-back">뒤로 가기</button>
+        <a href="mypage.html">
+            <button type="button" class="btn btn-primary">마이페이지</button>
+        </a>
+        <a href="list.html">
+            <button type="button" class="btn btn-primary">홈</button>
+        </a>     
+    </nav>
+</body>
+
+</html>

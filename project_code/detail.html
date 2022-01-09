@@ -1,0 +1,86 @@
+<!--
+    상세페이지 보여주는곳
+-->
+<!doctype html>
+<html lang="kor">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" async src="button.js"></script>
+    <title>transaction details</title>
+</head>
+
+<header>
+    <div class="title-box" id="title-box">
+        <p style="font-weight: bold;">DviD >> 거래 상세 내용 확인</p>
+    </div>
+</header>
+
+<body>
+    <div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"></script>
+        <script src="file.js"></script>
+
+        <div class="emtpy-box">
+        </div>
+
+        <div class="details_title">
+        </div>
+
+        <div class="detail_form_box">
+            <p>거래 제안자: min님</p>
+            <div class="details_top_box">
+                <table class="table">
+                    <tbody>
+                        <tr>
+                            <td rowspan='6'>
+                                <img height="200px" width="200px" src="sample.png" style="border-style: solid;">
+                            </td>
+                            <td colspan="3">물품명</td>
+                        </tr>
+                        <tr>
+                            <td colspan="3">거래지역</td>
+                        </tr>
+                        <tr>
+                            <td colspan="3">거래기한</td>
+                        </tr>
+                        <tr>
+                            <td>제안가격</td>
+                            <td>제안수량</td>
+                            <td>남은수량</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="output_details_contents">
+                <p>대통령이 궐위되거나 사고로 인하여 직무를 수행할 수 없을 때에는 국무총리, 법률이 정한 국무위원의 순서로 그 권한을 대행한다. 
+                    국무위원은 국무총리의 제청으로 대통령이 임명한다.</p>
+            </div>
+
+            <div class="contact-output-box">
+                <!-- <p>연락처:</p> -->
+            </div>
+        </div>
+
+        <div class ='row'>
+            <a type="button" class="form-control btn btn-primary" href="pay.html">참여</a>
+        </div>
+        <footer class="container-fluid navbar-fixed-bottom">
+            <button type="button" class="btn btn-primary" id = "btn-back">Back</button>
+            <a href="list.html">
+                <button type="button" class="btn btn-primary" id = "home">Home</button>
+            </a>  
+        </footer>
+    </div>
+</body>
+</html>
