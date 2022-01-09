@@ -44,7 +44,8 @@
 
 
 ## 프로젝트 결과
-- 4개 페이지 구현
+- 아래 이미지의 4개화면을 구현
+- 페이지 이동을 보여주기 위한 결제페이지 이동 화면, 거래완료화면 임의 구현 
 <img width="730"  height="400" src="https://user-images.githubusercontent.com/65681568/148685452-e816f6d1-2514-491a-931c-535cd0e3d96b.PNG">
 <img width="730"  height="400" src="https://user-images.githubusercontent.com/65681568/148685461-b249e51e-e88e-4f7c-8ae1-f97065cc6a9c.PNG">
 
