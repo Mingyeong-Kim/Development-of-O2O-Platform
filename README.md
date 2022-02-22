@@ -1,5 +1,5 @@
 # Development-of-O2O-Platform
-- **프로젝트 기간: 2020.07.23 - 2020.08.01(8주, 팀)**
+- **프로젝트 기간: 2020.07.23 - 2020.08.01(9일, 팀)**
 - **프로젝트 개요: 공동구매 및 배달 대행 O2O 앱 서비스 기획 및 구현**
 - **사용 기술 및 언어: Bootstrap, AWS Server, Android Studio, Webkit, Javascript, HTML, CSS**
 - **역할: 조원, 앱 서비스 기획 및 기능 도출, 시나리오 작성, 프로토타입을 작성을 통한 앱 UX/UI 디자인 구상, HTML, CSS를 사용한 앱 레이아웃 구성**
